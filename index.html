@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Items to Buy</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="navbar"></div>
+    <main>
+        <form action="/addItems.php" method="POST">
+            <label for="">Item Name<input type="text" required placeholder="Item Name"></label>
+            <label for="">Unit Price<input type="text" required placeholder="Entr positive integers only"></label>
+            <label for="">Quantity<input type="text" required placeholder="Quantity"></label>
+            <input type="submit" Value="Add Item">
+        </form>
+    </main>
+    <div id="footer"></div>
+    <script src="js/main.js"></script>
+</body>
+</html>
